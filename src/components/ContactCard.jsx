@@ -32,7 +32,7 @@ const ContactCard = ({ contact }) => {
     <>
       <motion.div
         key={contact.id}
-        className="group flex items-center justify-between p-5 rounded-2xl bg-white/40 dark:bg-neutral-900/60 border border-slate-100 dark:border-neutral-800 shadow-xl backdrop-blur-md transition-colors"
+        className="group flex items-center justify-between p-5 rounded-2xl bg-white/40 dark:bg-neutral-900/60 border border-slate-100 dark:border-neutral-800 shadow-xl backdrop-blur-md transition-colors min-w-[340px]"
         whileHover={{ scale: 1.03, boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}
         whileTap={{ scale: 0.98 }}
       >
